@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C03094E228C73995009AD319 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03094E128C73995009AD319 /* AppDelegate.swift */; };
 		C03094E428C73995009AD319 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03094E328C73995009AD319 /* SceneDelegate.swift */; };
 		C03094E628C73995009AD319 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03094E528C73995009AD319 /* ViewController.swift */; };
 		C03094E928C73995009AD319 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C03094E728C73995009AD319 /* Main.storyboard */; };
@@ -16,6 +15,14 @@
 		C03094F928C73996009AD319 /* FlicksterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03094F828C73996009AD319 /* FlicksterTests.swift */; };
 		C030950328C73996009AD319 /* FlicksterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C030950228C73996009AD319 /* FlicksterUITests.swift */; };
 		C030950528C73996009AD319 /* FlicksterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C030950428C73996009AD319 /* FlicksterUITestsLaunchTests.swift */; };
+		C030951228C78E8E009AD319 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C030951128C78E8E009AD319 /* TableViewCell.swift */; };
+		C030951528C7965C009AD319 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = C030951428C7965C009AD319 /* AlamofireImage */; };
+		C0719C0928D040E700D1021F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0719C0828D040E700D1021F /* AppDelegate.swift */; };
+		C0719C0C28D0423800D1021F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0719C0828D040E700D1021F /* AppDelegate.swift */; };
+		C0719C0D28D0423A00D1021F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0719C0828D040E700D1021F /* AppDelegate.swift */; };
+		C0719C0F28D044FF00D1021F /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0719C0E28D044FF00D1021F /* MovieDetailsViewController.swift */; };
+		C0BE0B6E28D0636E00083D36 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BE0B6D28D0636E00083D36 /* MovieGridViewController.swift */; };
+		C0BE0B7028D06D8400083D36 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BE0B6F28D06D8400083D36 /* MovieGridCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +44,6 @@
 
 /* Begin PBXFileReference section */
 		C03094DE28C73995009AD319 /* Flickster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flickster.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C03094E128C73995009AD319 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C03094E328C73995009AD319 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C03094E528C73995009AD319 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C03094E828C73995009AD319 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,11 @@
 		C03094FE28C73996009AD319 /* FlicksterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlicksterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C030950228C73996009AD319 /* FlicksterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlicksterUITests.swift; sourceTree = "<group>"; };
 		C030950428C73996009AD319 /* FlicksterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlicksterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C030951128C78E8E009AD319 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		C0719C0828D040E700D1021F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		C0719C0E28D044FF00D1021F /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		C0BE0B6D28D0636E00083D36 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		C0BE0B6F28D06D8400083D36 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C030951528C7965C009AD319 /* AlamofireImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,13 +111,17 @@
 		C03094E028C73995009AD319 /* Flickster */ = {
 			isa = PBXGroup;
 			children = (
-				C03094E128C73995009AD319 /* AppDelegate.swift */,
+				C0719C0828D040E700D1021F /* AppDelegate.swift */,
 				C03094E328C73995009AD319 /* SceneDelegate.swift */,
 				C03094E528C73995009AD319 /* ViewController.swift */,
 				C03094E728C73995009AD319 /* Main.storyboard */,
+				C0BE0B6F28D06D8400083D36 /* MovieGridCell.swift */,
+				C0BE0B6D28D0636E00083D36 /* MovieGridViewController.swift */,
+				C030951128C78E8E009AD319 /* TableViewCell.swift */,
 				C03094EA28C73996009AD319 /* Assets.xcassets */,
 				C03094EC28C73996009AD319 /* LaunchScreen.storyboard */,
 				C03094EF28C73996009AD319 /* Info.plist */,
+				C0719C0E28D044FF00D1021F /* MovieDetailsViewController.swift */,
 			);
 			path = Flickster;
 			sourceTree = "<group>";
@@ -143,6 +159,9 @@
 			dependencies = (
 			);
 			name = Flickster;
+			packageProductDependencies = (
+				C030951428C7965C009AD319 /* AlamofireImage */,
+			);
 			productName = Flickster;
 			productReference = C03094DE28C73995009AD319 /* Flickster.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +234,9 @@
 				Base,
 			);
 			mainGroup = C03094D528C73995009AD319;
+			packageReferences = (
+				C030951328C7965C009AD319 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+			);
 			productRefGroup = C03094DF28C73995009AD319 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,9 +280,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0719C0F28D044FF00D1021F /* MovieDetailsViewController.swift in Sources */,
 				C03094E628C73995009AD319 /* ViewController.swift in Sources */,
-				C03094E228C73995009AD319 /* AppDelegate.swift in Sources */,
+				C030951228C78E8E009AD319 /* TableViewCell.swift in Sources */,
+				C0719C0928D040E700D1021F /* AppDelegate.swift in Sources */,
 				C03094E428C73995009AD319 /* SceneDelegate.swift in Sources */,
+				C0BE0B6E28D0636E00083D36 /* MovieGridViewController.swift in Sources */,
+				C0BE0B7028D06D8400083D36 /* MovieGridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0719C0D28D0423A00D1021F /* AppDelegate.swift in Sources */,
 				C03094F928C73996009AD319 /* FlicksterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0719C0C28D0423800D1021F /* AppDelegate.swift in Sources */,
 				C030950528C73996009AD319 /* FlicksterUITestsLaunchTests.swift in Sources */,
 				C030950328C73996009AD319 /* FlicksterUITests.swift in Sources */,
 			);
@@ -602,6 +630,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C030951328C7965C009AD319 /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C030951428C7965C009AD319 /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C030951328C7965C009AD319 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C03094D628C73995009AD319 /* Project object */;
 }
